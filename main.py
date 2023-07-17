@@ -18,6 +18,8 @@ class App:
     def __init__(self, root):
         self.root = root
 
+class AppNewFeature:
+    pass
 
 def main():
     pass
