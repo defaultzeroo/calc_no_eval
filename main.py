@@ -1,27 +1,30 @@
+import tkinter as tk
+
+
+root = tk.Tk()
+
+
 class Window:
     def __init__(self):
         pass
+
 
 class Calcualtor:
     def __init__(self):
         pass
 
+
 class App:
-    def __init__(self):
-        pass
+    def __init__(self, root):
+        self.root = root
 
 
-difficluty_level = None
-
-def set_leve(name):
-    '''
-    name: имя кнопки (1, 2, 3 уровни сложности)
-    return: None
-    '''
-    global difficluty_level
-
-    if difficluty_level is None:
-        difficluty_level = name
+def main():
+    pass
 
 
+if __name__ == '__main__':
+    main()
+
+    
 
